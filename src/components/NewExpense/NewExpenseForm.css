@@ -1,0 +1,67 @@
+.new-expense-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 13rem;
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+    width: 20rem;
+    height: 5rem;
+    justify-content: space-between;
+}
+
+.input input {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 20rem;
+}
+
+.submit-button-wrapper {
+    text-align: right;
+}
+
+.submit-button-wrapper button,.cancel{
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    background-color: #40005d;
+    color: white;
+    border: none;
+    margin: 0px 10px;
+    user-select: none;
+}
+.submit-button-wrapper button:hover,.cancel:hover,.cancel:active,
+.submit-button-wrapper button:active {
+  background-color: #510674;
+  border-color: #510674;
+  cursor: pointer;
+}
+
+.submit-button-wrapper button.alternative,.cancel.alternativ {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.submit-button-wrapper button.alternative:hover,.cancel.alternative:hover,.cancel.alternative:active,
+.submit-button-wrapper button.alternative:active {
+  background-color: #ddb3f8;
+}
+#new-expense-button{
+  width: 202px;
+  margin: 0 17rem;
+}
